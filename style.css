@@ -6,7 +6,7 @@ h1 {
 }
 
 section{
-    background-color: rgba(184, 176, 21, 0.608);
+    background-color: rgba(0, 0, 0, 0.825);
     margin: 25px;
     overflow: scroll;
 }
@@ -16,7 +16,7 @@ pre {
     /* border: solid; */
     font-weight: bold;
     /* background-color: rgba(228, 228, 166, 0.856); */
-    color: rgb(105, 62, 5);
+    color: rgb(190, 190, 161);
     width: 80%;
 }
 
@@ -25,7 +25,7 @@ code {
     /* border: solid grey; */
     line-height: 2;
     font-weight: bold;
-    color: rgb(51, 0, 255);
+    color: yellow;
 }
 
 code::before {
