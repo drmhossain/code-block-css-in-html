@@ -1,0 +1,30 @@
+h1 {
+    color: green;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgba(11, 88, 17, 0.365);
+}
+
+code {
+    /* background-color: rgb(167, 163, 158); */
+    /* border: solid grey; */
+    line-height: 2;
+    font-weight: bold;
+    color: red;
+}
+
+pre {
+    text-align: left;
+    border: solid;
+    font-weight: bold;
+}
+
+code::before {
+    content: "<";
+    color: blue;
+}
+
+code::after {
+    content: "> ";
+    color: blue;
+}
