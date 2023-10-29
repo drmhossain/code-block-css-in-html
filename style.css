@@ -5,26 +5,35 @@ h1 {
     text-decoration-color: rgba(11, 88, 17, 0.365);
 }
 
+section{
+    background-color: rgba(184, 176, 21, 0.608);
+    margin: 25px;
+    overflow: scroll;
+}
+
+pre {
+    text-align: left;
+    /* border: solid; */
+    font-weight: bold;
+    /* background-color: rgba(228, 228, 166, 0.856); */
+    color: rgb(105, 62, 5);
+    width: 80%;
+}
+
 code {
     /* background-color: rgb(167, 163, 158); */
     /* border: solid grey; */
     line-height: 2;
     font-weight: bold;
-    color: red;
-}
-
-pre {
-    text-align: left;
-    border: solid;
-    font-weight: bold;
+    color: rgb(51, 0, 255);
 }
 
 code::before {
     content: "<";
-    color: blue;
+    color: red;
 }
 
 code::after {
     content: "> ";
-    color: blue;
+    color: red;
 }
