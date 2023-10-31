@@ -26,15 +26,15 @@ pre {
     /* border: solid grey; */
     line-height: 2;
     font-weight: bold;
-    color: rgb(0, 213, 255);
+    color: rgb(120, 232, 236);
 }
 
 .code-block>code::before {
     content: "<";
-    color: red;
+    color: yellow;
 }
 
 .code-block>code::after {
     content: "> ";
-    color: red;
+    color: yellow;
 }
