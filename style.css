@@ -21,20 +21,20 @@ pre {
     margin: 10px;
 }
 
-code {
+.code-block>code {
     /* background-color: rgb(167, 163, 158); */
     /* border: solid grey; */
     line-height: 2;
     font-weight: bold;
-    color: yellow;
+    color: rgb(221, 208, 218);
 }
 
-code::before {
+.code-block>code::before {
     content: "<";
     color: red;
 }
 
-code::after {
+.code-block>code::after {
     content: "> ";
     color: red;
 }
